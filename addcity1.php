@@ -25,7 +25,7 @@ if(isset($_POST['save']))
    $rs=mysqli_query($conn,$sql);
    if(!$rs)
 {
-     echo " not register ";
+     echo " not-register ";
 }
 else {
     echo " succ";
